@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "python": "3.14.7",
+  "sqlite": "3.53.4",
+  "offline_tests_passed": 26,
+  "live_ingestion": "passed",
+  "idempotent_live_replay": "passed",
+  "business_table_counts": {
+    "kev_current": 1762,
+    "kev_history": 1762,
+    "epss_daily": 1762
+  },
+  "business_tables_unchanged_after_replay": true,
+  "sqlite_integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "sql_example_queries_executed": 6,
+  "clean_virtualenv_package_install": "passed",
+  "packaged_offline_cli": "passed"
+}

@@ -1,0 +1,46 @@
+{
+  "title": "SYNTHETIC KEV fixture — fictional records for tests only",
+  "catalogVersion": "2026.10.28",
+  "dateReleased": "2026-10-28T19:00:00Z",
+  "count": 3,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-900001",
+      "vendorProject": "Example Vendor",
+      "product": "Fictional Gateway",
+      "vulnerabilityName": "Synthetic gateway issue",
+      "dateAdded": "2026-10-20",
+      "shortDescription": "Fictional test data; does not describe a real vulnerability.",
+      "requiredAction": "Apply the fictional vendor update.",
+      "dueDate": "2026-10-27",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Synthetic fixture only.",
+      "forensicTriage": "Synthetic extra source field retained for schema drift.",
+      "cwes": ["CWE-20"]
+    },
+    {
+      "cveID": "CVE-2026-900002",
+      "vendorProject": "Example Vendor",
+      "product": "Fictional Console",
+      "vulnerabilityName": "Synthetic console issue",
+      "dateAdded": "2026-10-25",
+      "shortDescription": "Fictional test data; does not describe a real vulnerability.",
+      "requiredAction": "Apply the fictional vendor update.",
+      "dueDate": "2026-11-15",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "Synthetic fixture only."
+    },
+    {
+      "cveID": "CVE-2026-900003",
+      "vendorProject": "Another Example Vendor",
+      "product": "Fictional Widget",
+      "vulnerabilityName": "Synthetic widget issue",
+      "dateAdded": "2026-10-28",
+      "shortDescription": "Fictional test data; does not describe a real vulnerability.",
+      "requiredAction": "Apply the fictional vendor update.",
+      "dueDate": "2026-11-20",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "No matching EPSS score is deliberately provided."
+    }
+  ]
+}

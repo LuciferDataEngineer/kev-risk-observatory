@@ -1,0 +1,38 @@
+{
+  "active_kev": 1762,
+  "as_of": "2026-10-29",
+  "catalog_released": "2026-10-28T19:00:04.807700+00:00",
+  "catalog_version": "2026.10.28",
+  "caveats": [
+    "Review cohorts are descriptive enrichment, not patch priorities or an asset-specific risk assessment.",
+    "KEV is known exploitation evidence; a low or missing EPSS score does not negate it.",
+    "CISA due dates are source dates for relevant directives, not universal organizational deadlines."
+  ],
+  "current_scores": 1762,
+  "epss_matches_in_snapshot": 1762,
+  "epss_score_date": "2026-10-28",
+  "epss_source_rows": 396966,
+  "known_ransomware": 361,
+  "missing_scores": 0,
+  "review_cohorts": {
+    "EPSS 10% to under 50%": 350,
+    "EPSS at least 50%": 660,
+    "Known ransomware evidence": 361,
+    "Other known exploited": 391
+  },
+  "run_id": "c81181edb2634dd88d8dd40604dc639a",
+  "sources": [
+    {
+      "bytes": 1818961,
+      "name": "cisa_kev",
+      "sha256": "c72e8b7751209e7575ed777439e3f4e9295ba86b4edf5d52730959d8bf9bfe64"
+    },
+    {
+      "bytes": 2785381,
+      "name": "first_epss",
+      "sha256": "aa9eefe4155babd88985c26528087bba5053405d4d64aed85ea5dc5c2e16c4e9"
+    }
+  ],
+  "stale_scores": 0,
+  "status": "success"
+}

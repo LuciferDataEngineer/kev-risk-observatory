@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kev-risk-observatory"
+version = "1.0.0"
+description = "A reproducible CISA KEV and FIRST EPSS vulnerability intelligence warehouse"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+kev-risk = "kev_risk.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

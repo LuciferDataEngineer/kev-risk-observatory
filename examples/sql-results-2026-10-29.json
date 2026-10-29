@@ -1,0 +1,138 @@
+[
+  {
+    "query_number": 1,
+    "row_count": 1,
+    "rows": [
+      {
+        "as_of": "2026-10-29",
+        "score_status": "current",
+        "cve_count": 1762,
+        "pct_of_active_kev": 100.0
+      }
+    ]
+  },
+  {
+    "query_number": 2,
+    "row_count": 4,
+    "rows": [
+      {
+        "review_cohort": "EPSS at least 50%",
+        "cve_count": 660
+      },
+      {
+        "review_cohort": "Other known exploited",
+        "cve_count": 391
+      },
+      {
+        "review_cohort": "Known ransomware evidence",
+        "cve_count": 361
+      },
+      {
+        "review_cohort": "EPSS 10% to under 50%",
+        "cve_count": 350
+      }
+    ]
+  },
+  {
+    "query_number": 3,
+    "row_count": 10,
+    "rows": [
+      {
+        "count_rank": 1,
+        "vendor": "Microsoft",
+        "active_kev": 390,
+        "ransomware_associated": 117
+      },
+      {
+        "count_rank": 2,
+        "vendor": "Cisco",
+        "active_kev": 101,
+        "ransomware_associated": 7
+      },
+      {
+        "count_rank": 3,
+        "vendor": "Apple",
+        "active_kev": 95,
+        "ransomware_associated": 0
+      },
+      {
+        "count_rank": 4,
+        "vendor": "Adobe",
+        "active_kev": 83,
+        "ransomware_associated": 11
+      },
+      {
+        "count_rank": 5,
+        "vendor": "Google",
+        "active_kev": 76,
+        "ransomware_associated": 0
+      },
+      {
+        "count_rank": 6,
+        "vendor": "Oracle",
+        "active_kev": 46,
+        "ransomware_associated": 13
+      },
+      {
+        "count_rank": 7,
+        "vendor": "Apache",
+        "active_kev": 41,
+        "ransomware_associated": 8
+      },
+      {
+        "count_rank": 8,
+        "vendor": "Ivanti",
+        "active_kev": 36,
+        "ransomware_associated": 12
+      },
+      {
+        "count_rank": 9,
+        "vendor": "Fortinet",
+        "active_kev": 32,
+        "ransomware_associated": 14
+      },
+      {
+        "count_rank": 9,
+        "vendor": "Linux",
+        "active_kev": 32,
+        "ransomware_associated": 2
+      }
+    ]
+  },
+  {
+    "query_number": 4,
+    "row_count": 0,
+    "rows": []
+  },
+  {
+    "query_number": 5,
+    "row_count": 0,
+    "rows": []
+  },
+  {
+    "query_number": 6,
+    "row_count": 2,
+    "rows": [
+      {
+        "run_id": "47003c1368c849bc9f14669ed912ff2e",
+        "started_at": "2026-10-29T11:26:40.415810+00:00",
+        "finished_at": "2026-10-29T11:26:41.110465+00:00",
+        "as_of": "2026-10-29",
+        "status": "success",
+        "kev_rows": 1762,
+        "epss_matches": 1762,
+        "error": null
+      },
+      {
+        "run_id": "c81181edb2634dd88d8dd40604dc639a",
+        "started_at": "2026-10-29T11:25:55.739336+00:00",
+        "finished_at": "2026-10-29T11:25:59.956104+00:00",
+        "as_of": "2026-10-29",
+        "status": "success",
+        "kev_rows": 1762,
+        "epss_matches": 1762,
+        "error": null
+      }
+    ]
+  }
+]
